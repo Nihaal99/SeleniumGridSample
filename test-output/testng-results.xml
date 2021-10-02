@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78195" started-at="2021-10-01T10:45:02Z" finished-at="2021-10-01T10:46:20Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="43219" started-at="2021-10-01T10:45:02Z" finished-at="2021-10-01T10:45:45Z">
+      <class name="com.selenium.grid.OpenSeleniumGrid">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.grid.OpenSeleniumGrid@4313f5bc]" name="setUp" is-config="true" duration-ms="28896" started-at="2021-10-01T10:45:02Z" finished-at="2021-10-01T10:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:com.selenium.grid.OpenSeleniumGrid@4313f5bc]" name="testGooglePageTitle" duration-ms="5415" started-at="2021-10-01T10:45:31Z" finished-at="2021-10-01T10:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.grid.OpenSeleniumGrid@4313f5bc]" name="closeBrowser" is-config="true" duration-ms="8872" started-at="2021-10-01T10:45:36Z" finished-at="2021-10-01T10:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.grid.OpenSeleniumGrid -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="78195" started-at="2021-10-01T10:45:02Z" finished-at="2021-10-01T10:46:20Z">
+      <class name="com.selenium.grid.OpenSeleniumGrid">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.grid.OpenSeleniumGrid@1184ab05]" name="setUp" is-config="true" duration-ms="35708" started-at="2021-10-01T10:45:02Z" finished-at="2021-10-01T10:45:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:com.selenium.grid.OpenSeleniumGrid@1184ab05]" name="testGooglePageTitle" duration-ms="30468" started-at="2021-10-01T10:45:38Z" finished-at="2021-10-01T10:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.grid.OpenSeleniumGrid@1184ab05]" name="closeBrowser" is-config="true" duration-ms="12004" started-at="2021-10-01T10:46:08Z" finished-at="2021-10-01T10:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.grid.OpenSeleniumGrid -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
